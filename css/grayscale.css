@@ -1,0 +1,249 @@
+#mainNav {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+  /*text-transform: uppercase;*/
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: black;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 14px;
+  padding: 11px;
+  color: white;
+  border: 1px solid white;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+}
+
+#mainNav a {
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: transparent;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: black;
+  }
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  #mainNav .nav-link.active:hover {
+    color: white;
+  }
+}
+
+/**/
+
+
+#logo_purple{height:20px;}
+#bar_purple{height:20px;}
+
+#btn_nav{
+  font-size: 27px;
+  color: white;
+}
+#btn_nav:hover{
+  color: #4D1277;
+}
+
+#inp_search{ 
+  margin-left: -65px;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 5px;
+  border-radius: 4px 0px 0px 4px;
+  width: 400px; 
+  border: none; 
+}
+#btn_search{
+ font-size: 20px;
+ border-radius: 6px;
+ border-radius: 0px 4px 4px 0px;
+ border: none; 
+ background-color: #4D1277;
+ width: 40px;
+ padding: 5px;
+ margin-left:-5px;
+}
+
+
+@media (max-width: 992px) {
+
+  #logo_purple{
+    height:20px;
+    margin-left: -30px;
+  }
+  #inp_search{
+   margin-left: -35px; 
+   
+
+ }
+ @media (max-width: 767px) {
+  #logo_purple{
+    height:20px;
+    margin-left: -30px;
+  }
+  
+
+  #inp_search{ 
+    font-size: 20px; 
+    width: 250px; 
+
+
+  }
+  #btn_search{
+   font-size: 20px;
+ }
+}
+
+
+@media (max-width: 576px) {
+  #drop_menu{padding: 0px; font-size: 10px; margin-left: -20px;}
+  #btn_nav{
+    font-size: 20px;
+
+  }
+  #logo_purple{
+    height:15px;
+  }
+  #bar_purple{
+    height:15px;
+  }
+  #inp_search{ 
+    padding: 0px;
+    height: 30px;
+    font-size: 13px; 
+    width: 200px; 
+  }
+  #btn_search{
+    padding: 0px;
+    height: 30px;
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 495px) {
+  #logo_purple{
+    height:15px;
+  }
+  #inp_search{ 
+    padding: 0px;
+    height: 30px;
+    font-size: 13px; 
+    width: 150px; 
+  }
+  #btn_search{
+    padding: 0px;
+    height: 30px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 430px) {
+  #logo_purple{
+    height:15px;
+    margin-left: -20px;
+  }
+  #inp_search{ 
+    padding: 0px;
+    height: 25px;
+    font-size: 13px; 
+    width: 110px; 
+    margin-left: -20px;
+  }
+  #btn_search{
+    padding: 0px;
+    height: 25px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 393px) {
+  #logo_purple{
+    height:15px;
+  }
+  #inp_search{ 
+    padding: 0px;
+    font-size: 13px; 
+    width: 90px; 
+  }
+  #btn_search{
+    padding: 0px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 370px) {
+  #logo_purple{
+    height:15px;
+  }
+  #inp_search{ 
+    padding: 0px;
+    font-size: 13px; 
+    width: 75px; 
+  }
+  #btn_search{
+    padding: 0px;
+    width: 30px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 350px) {
+  #logo_purple{
+    height:10px;
+    margin-left: -30px;
+
+  }
+  #bar_purple{
+    height:10px;
+  }
+  #inp_search{ 
+    padding: 0px;
+    font-size: 13px; 
+    width: 75px; 
+  }
+  #btn_search{
+    padding: 0px;
+    width: 25px;
+    font-size: 13px;
+  }
+  #btn_nav{
+    font-size: 15px;
+
+  }
+
+  
+}

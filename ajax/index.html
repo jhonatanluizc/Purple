@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Busca Com Ajax</title>
+	<script type="text/javascript" src="funcs.js"></script>
+</head>
+<style type="text/css">
+
+body{background-color: #222;}	
+
+#busca{
+	width: 350px;
+	padding: 5px;
+	
+	font-size: 20px;
+	border-radius: 3px;
+	outline: 0;
+	border-style: none;
+}
+#resultado{
+
+width: 360px;
+background-color: white;
+
+}
+#result{
+width: 360px;
+
+background-color: #fff;
+cursor: default;
+}
+#result:hover{
+background-color: #f2f2f2;
+cursor: default;
+}
+
+</style>
+<body>
+
+<div align="center">
+	<input id="busca" onkeyup="buscarNoticias(this.value)" >
+</div>
+<div align="center"><div align="left" id="resultado"></div></div>
+</body>
+</html>

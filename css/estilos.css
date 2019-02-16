@@ -1,0 +1,439 @@
+body{
+  background-color: #222222;
+  font-family: sans-serif;
+
+}
+
+
+.ml-15c{margin-left: 15%;}
+
+#btn_categoria{
+  font-size:25px;
+  background-color: #4d1277 ;
+}
+nav{
+  background-color: #000000;
+
+}
+footer{
+  background-color:  #000000;
+}
+#inp_pesquisa{
+  border-color: #222222;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;  
+  border-style: none;
+  width: 400px;
+}
+#btn_pesquisa{
+  background-color: #4d1277;
+  border-color: black;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-style: none;
+
+}
+
+
+
+.h_black{
+  color: #000000;
+}
+
+.row{
+  align-content: center;
+
+}
+
+#linha{
+  height: 2px;
+  width: 380px;
+  background-color:#4d1277;
+  border-radius: 5px;
+}
+
+.inav{
+  font-size: 25px;
+  margin-top: 7px;
+}
+.fs-40{
+
+  font-size: 40px;
+
+}
+#pesq_ico{
+  color: white;
+  font-size: 20px;
+
+}
+.mt-100px{
+  margin-top:100px;
+}
+
+.box-text{
+  background-color: red;
+  width: 500px;
+  align-self: center;
+}
+.ico-wp{
+  color:#FFFFFF;}
+  .ico-wp:hover{
+    color:#4d1277;
+  }
+  .ico-pw{
+    color:#4d1277;
+
+  }
+  .ico-pw:hover{
+    color: #FFFFFF;
+  }
+
+
+  .btn_img{
+    margin-top: 4px;
+    background-color: white;
+    border-style: solid;
+    border-color: #4D1277;
+    border-radius: 5px;
+    border-width: 3px;
+  }
+
+  .btn_img:focus{
+    outline: 0px;   
+  }
+
+  .logo_cadastro{
+    margin-top: 70px;
+  }
+
+  .div-cadastro{
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-left: 24%;
+    margin-right: 24%;
+
+  }
+
+  label{width: 250px;}
+
+  .div-btn_confirma{ float: right; margin-right: 24%; }
+  .btn-confirma{
+    background-color: #4d1277;
+    color:#fff;
+  }
+  .btn-confirma:hover{
+    background-color: #4d1277;
+    color:#ddbcf5;
+  }
+  .ico:hover{
+
+    color:#ddbcf5;
+  }
+
+
+  .bgc-1{background-color: #FFFFFF;
+  }
+
+
+
+  .card{
+
+    margin: 5px;
+    float: none;
+    margin-bottom: 10px;
+    color: black; 
+
+  }
+
+  /*float*/
+  .f-bot{float:button;}
+  /*margens top*/
+  .mt-220{margin-top: 220px;}
+  .mt-200{margin-top: 200px}
+  .mt-200px{margin-top: 200px;}
+  .mt-100{margin-top: 100px; }
+  /*cores fonte*/
+  .fc-purple{color: #4D1277;}
+  .fc-white{color: #FFFFFF;}
+  .fc-green{color: #32B432;}
+  .fc-red{color: #E90313};
+  /*bg color*/
+  .bgc-purple{background-color: #4D1277;}
+
+
+  #dacompra{
+    color: white;
+  }
+
+  @media(max-width: 991px){
+    #inp_pesquisa{width: 350px;}
+    .spanpesquisa{margin-top: 10px;}
+
+
+  }
+  @media(max-width: 500px){
+    #inp_pesquisa{width: 350px;}
+  }
+  @media(max-width: 450px){
+    #inp_pesquisa{width: 300px; }
+  }
+  @media(max-width: 400px){
+    #inp_pesquisa{width: 250px;}
+  }
+  @media(max-width: 350px){
+    #inp_pesquisa{width: 200px;}
+  }
+  @media(max-width: 300px){
+    #inp_pesquisa{width: 150px;}
+  }
+  @media(max-width: 250px){
+    #inp_pesquisa{width: 100px;}
+  }
+  @media(max-width: 200px){
+    #inp_pesquisa{width: 50px;}
+  }
+
+  .card-item{ 
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 4px;  
+  }
+
+  .card-item:hover{
+    transition:all 0.3s linear;
+    transition-delay: .1s;
+    border-color: #9a37e1;
+    border-style: solid;
+    border-width: 4px;
+  }
+
+  /*config footer*/
+  .footer_form{
+    color: white; 
+    font-size: 27px}
+
+    @media(max-width: 991px){
+      .footer_form{font-size: 24px;}
+
+
+    }
+
+
+    @media(max-width: 500px){
+      .footer_form{font-size: 24px;}
+    }
+    @media(max-width: 450px){
+      .footer_form{font-size: 21px;}
+    }
+    @media(max-width: 400px){
+      .footer_form{font-size: 18px;}
+    }
+    @media(max-width: 350px){
+      .footer_form{font-size: 15px;}
+    }
+    @media(max-width: 300px){
+      .footer_form{font-size: 12px;}
+    }
+
+    /*config footer*/
+
+
+    /* Cards config */
+    @media (max-width: 991px) {
+
+      #card_item{
+        margin-left: 60px;
+      }
+
+    }
+
+    @media (max-width: 767px) {
+
+      #card_item{
+        margin-left: -40px;
+      }
+
+    }
+
+
+
+  }
+  @media (max-width: 620px) {
+
+    #card_item{
+      margin-left: 150px;
+    }
+  }
+  @media (max-width: 600px) {
+
+    #card_item{
+      margin-left: 120px;
+    }
+
+  }
+  @media (max-width: 540px) {
+
+    #card_item{
+      margin-left: 80px;
+    }
+
+  }
+  @media (max-width: 500px) {
+
+    #card_item{
+      margin-left: 60px;
+    }
+
+  }
+  @media (max-width: 430px) {
+
+    #card_item{
+      margin-left: 40px;
+    }
+  }
+  @media (max-width: 400px) {
+
+    #card_item{
+      margin-left: 10px;
+    }
+
+  }
+  @media (max-width: 350px) {
+
+    #card_item{
+      margin-left: 0px;
+    }
+
+  }
+  @media (max-width: 320px) {
+
+    #card_item{
+      margin-left: -15px;
+    }
+
+  }
+  /* Cards config fim */
+
+
+  /* error */
+  #ico_error{
+    font-size: 200px;
+    color: #4D1277;
+
+  }
+
+  @media(max-width: 800px){
+    #ico_error{
+      font-size: 150px;
+
+    }
+  }
+
+  @media(max-width: 400px){
+    #ico_error{
+      font-size: 100px;
+
+    }
+  }
+  @media(max-width: 200px){
+    #ico_error{
+      font-size: 50px;
+
+    }
+  }
+
+  @media(max-width: 800px){
+    #h3_error{
+      font-size: 25px;
+
+    }
+    #h5_error{
+      font-size: 15px;
+
+    }
+  }
+
+  @media(max-width: 400px){
+    #h3_error{
+      font-size: 20px;
+
+    }
+    #h5_error{
+      font-size: 10px;
+
+    }
+  }
+  /* error */
+  /* rodape */
+  html, body {
+    height: 100%;
+  }
+
+  #wrap {
+    min-height: 100%;
+  }
+
+  #main {
+    overflow:auto;
+    padding-bottom:150px; /* this needs to be bigger than footer height*/
+  }
+
+  .footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+    background-color: black;
+  } 
+  /* rodape */
+
+
+/*pesquisa */
+@media(max-width: 850px){ 
+  #resultado{
+    display: none;
+  }
+}
+
+  #resultado{
+
+  width: 400px;
+  background-color: white;
+  margin-top: 3px;
+
+  border-radius: 4px;
+
+  z-index: 2;
+}
+#result{
+  width: 400px;
+
+  background-color: #fff;
+  cursor: default;
+
+  border-style: none; 
+  border-color: #4D1277;
+  border-top-style: solid;
+
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 3px;
+  margin-top: -3px;
+}
+#result:hover{
+  transition-delay: 0.1s;
+  transform: 2s;
+  background-color: #cec2d6;
+  cursor: default;
+}
+.resultado{
+  margin-left: -41px; 
+  margin-top: 60px;
+}
+@media(max-width: 991px){ 
+  .resultado{
+    margin-left: -39px;
+    margin-top: 56px;
+  }
+}
