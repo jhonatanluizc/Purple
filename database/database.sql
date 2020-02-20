@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS Purple;
-USE `Purple`;
+CREATE DATABASE IF NOT EXISTS purple;
+USE `purple`;
 
 DROP TABLE IF EXISTS `itens`;
 CREATE TABLE `itens` (
