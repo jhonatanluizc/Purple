@@ -1,31 +1,4 @@
-<?php session_start();
-
-if (!isset($_SESSION['email']) or !isset($_SESSION['senha']) )
-{
-  session_destroy();
-  $sessaoNome = "";
-}
-else
-{
-  $email = $_SESSION['email'];
-  $senha = $_SESSION['senha'];
-
-  include_once('clientes/conexao.php');
-
-  $select = ("select * from clientes where email='$email' and senha='$senha'");
-  $result = $conn->query($select);
-
-  if ($result->num_rows > 0) 
-  {   
-    while($row = $result->fetch_assoc()) 
-    {
-      $sessaoNome = " ".$row['nome']."";
-
-    }
-  } 
-  mysqli_close($conn);
-}
-?>
+<?php include_once("../Model/session.php"); ?>
 
 <!DOCTYPE html>
 <html lang="pt">
